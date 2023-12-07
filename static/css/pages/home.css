@@ -1,14 +1,14 @@
 /* gulag mascot/avatar */
 
 .gulag-avatar {
-  background-image: url("/static/images/pippi.png");
+  background-image: url("/static/images/konatafix.png");
   background-repeat: no-repeat;
   /*     available avatar widths & heights      */
   /* gulag.png:   width: 512px; height: 363px;  */
   /* pippi.png:   width: 372px; height: 432px;  */
-  width: 365px;
-  height: 579px;
-  left: 50px;
+  width: 372px;
+  height: 432px;
+  left: 230px;
   margin: 0;
   padding: 0;
   position: relative;
@@ -41,7 +41,7 @@
 
 @media screen and (max-width: 1023px) {
   .gulag-avatar {
-    display: none;
+    display:none;
   }
   #home-hero .columns.flex-vcenter {
     padding: 0 20px;
@@ -52,6 +52,7 @@
   }
   #mascot {
     display: none !important;
+    z-index: 20;
   }
   .my-con {
     margin: 60px 0 0 0;
@@ -61,8 +62,18 @@
   }
 }
 
-.splash {
-  background: hsl(var(--main), 40%, 40%);
+#home-hero .splash {
+/*   background: hsla(var(--main), 40%, 40%, 0.4); */
+  background: url("https://assets.fortloli.xyz/backgrounds/lsbg13.jpg");
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .footer {

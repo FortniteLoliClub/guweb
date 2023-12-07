@@ -1,31 +1,31 @@
 # -*- coding: utf-8 -*-
 
 # app name
-app_name = 'guweb'
+app_name = 'FortniteLoliClub'
 
 # secret key
-secret_key = 'changeme'
+secret_key = 'maii12'
 
 #hCaptcha settings:
 hCaptcha_sitekey = 'changeme'
 hCaptcha_secret = 'changeme'
 
 # domain (used for api, avatar, etc)
-domain = 'gulag.ca'
+domain = 'fortloli.xyz'
 
 # max image size for avatars, in megabytes
-max_image_size = 2
+max_image_size = 5
 
 # mysql credentials
 mysql = {
-    'db': 'gulag',
+    'db': 'bancho',
     'host': 'localhost',
-    'user': 'cmyui',
-    'password': 'changeme',
+    'user': 'mai',
+    'password': 'mai12',
 }
 
 # path to gulag root (must have leading and following slash)
-path_to_gulag = '/path/to/gulag/'
+path_to_gulag = 'C:/Users/Flavio Figueroa/Desktop/Servers/bancho.py'
 
 # enable debug (disable when in production to improve performance)
 debug = False
